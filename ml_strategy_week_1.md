@@ -47,3 +47,4 @@ suppose we have a lot of porn that is being classified as cat. Then we will have
 ## summary
 
 ![summary](https://i.gyazo.com/5ad1bfcdaf4b13275ade64cca8e1782b.png)
+* requires knowing the human level error % to compare against the train error %
