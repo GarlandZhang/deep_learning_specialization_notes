@@ -2,3 +2,8 @@
 
 hyptohesis:
 ![n](https://i.gyazo.com/219c96add95b7c6cf2fe991403546f4f.png)
+
+## multivariable lin reg
+
+![multi](https://i.gyazo.com/44d8c3bcaea914cf937e977a1388311a.png)
+
