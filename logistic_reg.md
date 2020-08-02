@@ -33,3 +33,9 @@ e.g.; conjugate gradient, BFGS, L-BFGS
   - no need to pick learning rate
   
 ![adv_ops](https://i.gyazo.com/00b7080189ea48d92024572f67572c4f.png)
+
+## multiclassification
+
+for each class, set instances to 1 and all other class instances to 0 
+  - train classifier on each of the classes
+  - choose the class for an input x with highest hypothesis output
