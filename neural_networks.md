@@ -29,3 +29,9 @@ nn = functions, therefore we can create a shallow nn to replicate the OR gate fu
 more complex functions:
 
 ![XNOR](https://i.gyazo.com/0b9c7468119f0cd5a3bf339383e7bc13.png)
+
+## multiclass classification
+
+our final layer has n (= # classes) outputs where each output is the hypotheses output "guess" for that class. Using sigmoid activation function, each value will be approximately 0 or 1. 
+
+take the max to get the guess. 
