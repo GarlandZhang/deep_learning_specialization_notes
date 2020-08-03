@@ -12,6 +12,10 @@ in general, want to put everything in range of -1 to 1 (e.g.; for images, we do 
 
 subtract value by average. 
 
+so to apply feature scaling and mean normalization, use:
+
+![fs+mn](https://i.gyazo.com/92222afa92d7b84de396b87afbf98043.png)
+
 ## learning rate
 
 if learning rate too big, may overshoot and increase cost function isntead.
