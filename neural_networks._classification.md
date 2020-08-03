@@ -59,3 +59,28 @@ to calculate the partial derivatives, we perform forward propagation first. we t
 
 note: to calculate the 8s, we go from right to left (hence, backpropagation).
 
+## implementation specific
+in order to levarage optimizing functions like fminunc, we need to convert matrices into vectors (aka **unrolling parameters**).
+
+![adv_op](https://i.gyazo.com/24acd636e3093577808f4f0c15365afa.png)
+
+## gradient checking
+
+ensures backpropagation is implemented properly and works as intended.
+
+approximate derivatves by taking a small epsilon, E, and compute J(0 + E) - J(0 - E) / 2. With partial derivatives, we use the same formula but fix all 0s except the relevant 0. 
+
+![gc](https://i.gyazo.com/aff33fb9a5b4659b500730fa9462d4e5.png)
+
+this is computationally expensive so do it once and turn it off for normal training
+
+## random initialization
+
+do not set all weights to 0 initially (no improvement when training!). instead, use unifrom distribution to randomly init weights.
+
+![ri](https://i.gyazo.com/d411017feaf597b2ea090fe15a6c271d.png)
+
+
+## neural network summary
+
+![summary](https://i.gyazo.com/e6691ee2463a7120683458b00df134d7.png)
