@@ -20,3 +20,5 @@ suppose you had to select a model from different degrees of polynomial functions
 **idea**: Train each model and select the model with the lowest test set error 
 **problem**: the chosen model will be an overestimate of the true generalization error as we chose the model that performed the best on the test set error (this is cheating!).
 **solution**: This motivates the need for **validiation** sets. So we examine for cross validation error instead.
+
+![cost summary](https://i.gyazo.com/1b055c0275ca6a0fd25377cd11756409.png)
