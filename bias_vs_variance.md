@@ -17,3 +17,10 @@
   
 - small lambda means very complex function therefore overfit
   - therefore high variance (overfit)
+
+![reg](https://i.gyazo.com/0fa2f772c280cead3c3f1333e5264e13.png)
+
+### choosing lambda
+
+![choose_lambda](https://i.gyazo.com/3faf9aaad3a6ea9ae26a7fd8a1fa8881.png)
+  - choose model lowest validation error
