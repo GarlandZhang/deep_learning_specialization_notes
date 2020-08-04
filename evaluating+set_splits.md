@@ -1,9 +1,8 @@
 ## debugging learning algorithm
 
 what to try next:
-- get more training examples
-- try adding/remove features
-- try changing lambda (regularization parameter)
+
+![steps](https://i.gyazo.com/474c2e024735d816b7a249111bca3475.png)
 
 to deterine best choice, use a **machien learning diagnostic**: test to gain insight what is/isn't working and gain guidance on next best choice
 
