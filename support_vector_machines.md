@@ -7,7 +7,7 @@ a supervised learning algorithm
 ![SVM](https://i.gyazo.com/6df78e650d3286de57f69b617179b93a.png)
   - derived from logistic regression with slightly different format (the theta solution is just a linear equation difference of the theta for logistic regression)
   - C = 1 / lambda
-  - cost fn is sigmoid (w/ margin calcualted in?)
+  - cost fn is sigmoid
   
 SVMs are also called **large margin classifiers**:
   - logistic reg
@@ -20,7 +20,10 @@ SVMs are also called **large margin classifiers**:
 why are SVMs superior to logistic regression? Not only does it do what logistic regression does (find a boundary to split the positive and negative examples), it finds the **most optimal** boundary
 
 ![ex](https://i.gyazo.com/0932c33c80008a96a97f75fa2f01af51.png)
-  - this is possible because we require our internal cost functions more strict to also being larger in magnitude to them argin:
+  - this is possible because when the magnitude of the cost is >= 1, we approx get 0 and all thats left is the regularization term, so we optimize for the thetas to be as small as possible:
+  ![reg](https://i.gyazo.com/a69eccbd6b917dd9b495db08237c1dbe.png)
+  
+  - in summary:
   ![cfn](https://i.gyazo.com/258d5a97eade3e4de0cb058e373be934.png)
   
 ### outliers
