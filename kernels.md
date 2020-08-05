@@ -15,3 +15,7 @@ how do kernels in SVMs help create decision boundaries:
   - if >= 0, predict y =1, otherwise predict y= 0
   - we therefore get a decision boundary
 
+## choosing landmarks
+
+![choose](https://i.gyazo.com/6e29224bd9d28bc5b1e03fec1108bbf0.png)
+
