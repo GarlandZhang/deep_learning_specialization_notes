@@ -33,3 +33,6 @@ why are SVMs superior to logistic regression? Not only does it do what logistic 
 
 ![lmi](https://i.gyazo.com/976feedee58a5ed23ea95641496dfa48.png)
 
+
+## kernels
+see: https://github.com/GarlandZhang/ml_notes/edit/master/kernels.md
