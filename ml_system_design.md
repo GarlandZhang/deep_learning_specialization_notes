@@ -30,3 +30,7 @@
 
 to compare PR values take **F1 score**: https://github.com/GarlandZhang/ml_notes/blob/master/F1_score.md
 
+
+## data in ML
+
+the rationale between a bunch of data is that even with a NN with a lot of hidden units, 
