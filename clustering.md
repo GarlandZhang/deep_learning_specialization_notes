@@ -5,3 +5,6 @@
 
 non-clustering example is the cocktail party algorithm, where we find structure in a chaotic environment (e.g.; separating a voice and music from one audio file).
 
+
+## kmeans algorithm
+https://github.com/GarlandZhang/ml_notes/kmeans_algo.md
