@@ -21,3 +21,8 @@ suppose you had to select a model from different degrees of polynomial functions
 **solution**: This motivates the need for **validiation** sets. So we examine for cross validation error instead.
 
 ![cost summary](https://i.gyazo.com/1b055c0275ca6a0fd25377cd11756409.png)
+
+
+## neural networks and overfitting
+
+![small_vs_large](https://i.gyazo.com/008496cf9fd2dbf8b41cf82e1493c95e.png)
