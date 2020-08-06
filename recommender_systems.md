@@ -37,3 +37,20 @@ optimization objective:
 collaboritve filterin algo:
 ![algo](https://i.gyazo.com/ab492cd6f1a616d4219c88051885ae3f.png)
   - the first step is for symmetry breaking so features learn different things (same idea with NN for random init on weights)
+
+### vectorization
+
+![vec](https://i.gyazo.com/b78058d9d77f9f2be8b449e90dfbae16.png)
+
+### finding related movies
+  - since we represent movies by their feature vector, x1, we just look for the smallest distance between another instance x2, a related movie
+![rel](https://i.gyazo.com/b7b29a842c468b386f387ecd45a3c38c.png)
+
+### users who have not rated movies
+  - new user have not rated any movies, therefore even if we run the collaborative filtering algo to predict the user's ratings, it will just be 0s as that minimizes cost:
+!{no_rate](https://i.gyazo.com/6ffbd3e9916161d3779c4220cb5e8a22.png)
+  - **solution**: mean normalization. basically, the new user is the "average user" and we update our prediction algo:
+![mean](https://i.gyazo.com/e579b4204d6769a6375d684f60239b14.png)
+  - dont apply **feature scaling** because all movie ratings are already beetween 0 and 5
+  
+  
