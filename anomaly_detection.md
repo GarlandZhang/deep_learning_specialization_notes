@@ -43,4 +43,17 @@ why not just use a neural network or supervised learning algoirthm instead?
 ![comp](https://i.gyazo.com/b9de679d6197f9c115590d587cbb5e6f.png)
   -in summary, use anomaly detection for "unusual" classification, and supervised otherwise
   
-## choosing what features to use
+## common problems + choosing features
+
+- not all features are gaussian; so we need to make them look gaussian; can be done using log, sqrt,  ^ 1/3, or log(x + [constant])
+![make_g](https://i.gyazo.com/af0f0d0b7266edb555196e98074768ea.png)
+
+- want p(x) for anomalies should be < Epsilon but what if it is too large?
+![large](https://i.gyazo.com/de557e4e963d7aab2e16a4b4088074cc.png)
+- it helps to look at the specific example (since there arent many) to determine the new feature (x2) to prevent misclassification:
+![x2](https://i.gyazo.com/81e7e8571e7916a71d99c55d75ab503e.png)
+
+
+- finally choose features that take on unusually large or small values in event of anomally:
+
+![cpu](https://i.gyazo.com/27743fb62be18b75b8a72b1af0768129.png)
