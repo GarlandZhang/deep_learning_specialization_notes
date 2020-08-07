@@ -22,3 +22,38 @@ note: learning rate can impact gradient descent too:
 
 warning: grad desc can converge to local minimum.
 
+## large datasets
+- with each gradient calculation, we sum over m training examples; this is computationally expensive if m is very large
+- to measure if increasing m leads to better performance, plot m on x axis and error (cost function) on y axis for both the cost function of cv and training:
+![large](https://i.gyazo.com/67a33dc2ad647f57abdd154511f2b19b.png)
+  - in the first graph, increasing m will reduce cost for cv error but in second graph it wondt do much
+
+## stochastic gradient descent
+so far we've been using **batch gradient descent** where we sum over all traiing examples
+
+in stochastic, we update after each training example:
+
+![comp](https://i.gyazo.com/30441c8da3ae6d0592463c57ebd40754.png)
+
+algo:
+
+![algo](https://i.gyazo.com/a2b1da969f9b6336d6e54f0d37fc31ef.png)
+
+note: "The cost function J should go down with every iteration of batch gradient descent (assuming a well-tuned learning rate \alphaα) but not necessarily with stochastic gradient descent."
+
+### checking for convergence
+
+![comp](https://i.gyazo.com/1ef1a9d9a472b45fc15b88512e5408c9.png)
+  - learning rate should decay as num iterations increase
+
+## mini-batch gradient descent
+
+so far:
+![summ](https://i.gyazo.com/73a45d4ad4c75432f104e7135cdc8556.png)
+
+- allows parallelization
+![algo](https://i.gyazo.com/6798d1b892cdf8aba35b9f9e8afcc148.png)
+
+
+
+
