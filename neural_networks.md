@@ -88,3 +88,8 @@ do not set all weights to 0 initially (no improvement when training!). instead, 
 ## neural network summary
 
 ![summary](https://i.gyazo.com/e6691ee2463a7120683458b00df134d7.png)
+
+## performance by scale
+![peprf](https://i.gyazo.com/a541eef41a2cf6e29e5923fa4828be11.png)
+  - for small datasets, traditional algos may perform better; for large m, deep NN dominate
+
