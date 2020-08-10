@@ -15,3 +15,17 @@
 
 ![grad](https://i.gyazo.com/aca0563d7da8cb824be38201479837db.png)
   - once we calculate derivates w.r.t inputs, then we cana update the weights and bias with the learning rate * derivs
+
+## vectorization
+
+  - for loop over m exapmles to calc grad desc is inefficient
+
+### foreward propagation
+![vec](https://i.gyazo.com/81d3620a0cc91f8cb4eb8308cb6f7053.png)
+  - explanation: we want to calculate Z (the raw output value from applying weights to input values). we can do that by multiplying the weights with each x input (note how w does not depend on m). Then we add the biases
+  
+### gradient computation
+![vec](https://i.gyazo.com/a22f5bf52e6f5f88eff890729355bf74.png)
+  - rhs is th vectorized impl
+  - this is for two layer NN
+  - compared to gradient descent before, the dw's are the triangles and dz's is the 8's
