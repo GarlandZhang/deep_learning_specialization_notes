@@ -1,3 +1,7 @@
+e.g.;
+![ex](https://i.gyazo.com/d538c171e872935d191677610b12a947.png)
+
+
 logistic function aka **sigmoid activation function**
 
 "Our input nodes (layer 1), also known as the "input layer", go into another node (layer 2), which finally outputs the hypothesis function, known as the "output layer".
