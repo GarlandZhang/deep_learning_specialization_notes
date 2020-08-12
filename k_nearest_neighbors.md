@@ -4,3 +4,6 @@
 ![close](https://miro.medium.com/max/611/1*wW8O-0xVQUFhBGexx2B6hg.png)
 
 e.g.; a 33 year old thinks similarly to a 31 year old or 35 year old, so if we are interested in what a 33 year old thinks (query value) then we look for K people that are "most similar" to our query value (aka 31 year old, 35 year old). This similarity is measured by the distance between the ages. Once we calculate the distances from our query value to each of the data points, we get the K closest (most accurate). We then look at the labels to determine our output (if we have classificatino problem, take mode of the labels; for regression, take mean)
+
+## algo
+![algo](https://i.gyazo.com/6c8c8afbddcd70bb47202b4376b9f25b.png)
