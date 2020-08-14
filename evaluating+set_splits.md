@@ -26,3 +26,7 @@ suppose you had to select a model from different degrees of polynomial functions
 ## neural networks and overfitting
 
 ![small_vs_large](https://i.gyazo.com/008496cf9fd2dbf8b41cf82e1493c95e.png)
+
+## train/dev/test sets
+- make sure they come from same distribution
+- with big data, we could have 98/1/1 split
