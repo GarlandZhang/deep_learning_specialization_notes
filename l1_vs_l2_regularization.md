@@ -22,3 +22,8 @@ Apart from H, the change in w depends on the ±λ term or the -2λw term, which 
   
 note: While L1 has the influence of pushing weights towards 0 and L2 does not, this does not imply that weights are not able to reach close to 0 due to L2.
 
+### more on L2
+- also called "weight decay" because in addition to gradient update, it also reduces magnitude of the weights
+![decay](https://i.gyazo.com/e8526e804c4f911017dd3cdbb10bbf06.png)
+
+
