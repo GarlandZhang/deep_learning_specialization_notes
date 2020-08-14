@@ -28,3 +28,7 @@
 
 ![choose_lambda](https://i.gyazo.com/3faf9aaad3a6ea9ae26a7fd8a1fa8881.png)
   - choose model lowest validation error
+
+### bias vs variance
+![comparison](https://i.gyazo.com/ff91dc09597d747a04e07993a1dc15a6.png)
+
