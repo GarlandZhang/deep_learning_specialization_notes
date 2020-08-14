@@ -36,3 +36,28 @@ same idea as linear regression where we simply add the lambda component to the c
 In gradient descent, we just add the derivative lambda component (except for the first term 00 of course).
 
 ![gd](https://i.gyazo.com/3d0a4789c4e2b5c349925322dca447b8.png)
+
+## l1, l2
+
+see l1vsl2 regulariztaion 
+
+## dropout regularization
+  - dropout a subset of nodes in the neural network at random for each iteration 
+  - only use for overfitting to prevent relying solely on any single feature 
+![dropout](https://i.gyazo.com/d42a0f158c7f04734f65c6f9cc78b85e.png)
+
+### impl
+![impl](https://i.gyazo.com/a62c9e828065a8059f274e75e58092e9.png)
+  - we keep keep_prob % of nodes in current layer
+  - we "remove" nodes by just zeroing out its value (when calculating the Z value for next layer)
+  - we must adjust the current activations by dividing by keep_prob % to ensure the magnitude of Z doesn't change cause of dropout
+  - at test time, dropout is not activated
+  
+### intuition
+  - ensures we don't rely on any one feature, so have to spread out weights
+  
+## early stopping
+  - prevents weights from becoming too big by stopping iterations at mid-size level
+  ![early](https://i.gyazo.com/cd023edebbe86922683f832dc02a9172.png)
+  
+  
