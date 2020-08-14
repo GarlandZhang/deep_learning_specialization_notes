@@ -54,6 +54,9 @@ so far:
 - allows parallelization
 ![algo](https://i.gyazo.com/6798d1b892cdf8aba35b9f9e8afcc148.png)
 
+- more noisy because some examples might be "easier" than others:
 
+![noise](https://i.gyazo.com/90c47460c1aff9dbc8694346c5deb28a.png)
 
-
+### choosing mini batch size
+  - usually power of 2
