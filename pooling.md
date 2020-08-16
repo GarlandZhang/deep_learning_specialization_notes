@@ -7,3 +7,4 @@
 
 ![avg](https://i.gyazo.com/f962267de01f8f92542fa8620598e3d8.png)
   - also no parameters to learn
+  - note: this still affects gradient descent but not directly
