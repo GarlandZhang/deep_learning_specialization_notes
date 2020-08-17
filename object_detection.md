@@ -1,4 +1,18 @@
-combines object localization + landmark detection
+## object localization
+
+## landmark detection
+
+## sliding window
+
+## bounding box
+
+## intersection over union
+
+## non-max suprression
+
+## anchor boxes
+
+## yolo algorithm
 
 ## sliding window
   - slide submatrix with some stride to find iamge
