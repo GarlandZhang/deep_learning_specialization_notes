@@ -64,3 +64,17 @@ note: Beam Search runs fast but is not guaranteed to find max prob sentrence
 machine translation exmaple
 ![mte](https://i.gyazo.com/a6e33850e189c6159fbc47f7e8b60b25.png)
 
+## speech recognition
+-  another application of sequence to sqequence models
+![audio](https://i.gyazo.com/25e8da3be991ab1b59fc2ee84b3cd0ce.png)
+- we can use attention model:
+!{am](https://i.gyazo.com/41d6dc53fe754cc9b750cb9568fbc6e4.png)
+
+![ctc](https://i.gyazo.com/3d97be36fc4abfacb417f44092f2bfd7.png)
+  - since audio is continuous and we can sample at times when there isnt a word sound, we can repeat characters 
+
+## trigger word detection
+![tw](https://i.gyazo.com/542611404b7167cbaaa466655e2e0266.png)
+  - the blue underline sample is the trigger word being said; set 1 to all following lstm outputs; otherwise if not trigger word said then set to 0
+
+ 
