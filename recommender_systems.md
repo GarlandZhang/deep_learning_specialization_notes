@@ -19,6 +19,13 @@ problem formulation:
 ![cfn](https://i.gyazo.com/c68e56b9fd0e74b2cbe4f071f9ebb243.png)
 
 ## collaborative filtering
+see: https://realpython.com/build-recommendation-engine-collaborative-filtering/#:~:text=Collaborative%20filtering%20is%20a%20family,type%20of%20collaborative%20filtering%20approach.
+  - two steps
+  1. find similar users
+    - use euclidean distance between the points in space or
+    - use cosine distance (the smaller the angle between two vectors in space are, the closer they are in similarity; to prevent distance as an issue, normalize the vectors; reason why distance doesn't matter is because some users can be "harder" raters and so generally give lower ratings. So we look at things relatively).
+  2. guess rating that user will give to a certain movie
+    - take top 5 or 10 similar users and get average rating (or weighted average based on similarity)
 
 suppose the category features are not known. we can approximate their values based on the preferences of the users:
 
