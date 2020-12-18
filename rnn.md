@@ -1,5 +1,5 @@
 recurrent neural networks
-cheat sheet: ![](https://heartbeat.fritz.ai/a-2019-guide-for-automatic-speech-recognition-f1e1129a141c)
+cheat sheet: ![](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 ## notation
 
